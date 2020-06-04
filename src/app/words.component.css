@@ -1,0 +1,38 @@
+div.card-header {
+    font-size: large;
+}
+   
+div.card {
+     margin-left:auto;
+     margin-right: auto;
+     /* width: 50%; */
+}
+.option{
+        background: none;
+        border: none;
+        width: 100%;
+        text-align: left;
+        padding: 0!important;
+        /*optional*/
+        font-family: arial, sans-serif;
+        /*input has OS specific font-family*/
+        color: #069;
+        /* display:block; */
+        outline:none;
+        text-decoration: none;
+        cursor: pointer;
+        transition-duration: 0.4s;
+}
+  
+.option:hover {
+        color: black;
+}
+
+thead{
+    background:rgb(133, 126, 126); 
+    font-size: large;
+}
+.table tr.active td {
+    background-color:#123456 !important;
+    color: white;
+  }

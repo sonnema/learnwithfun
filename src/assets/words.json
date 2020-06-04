@@ -1,0 +1,32 @@
+[
+    {
+        "wordId" : 1,
+        "wordName" : "confounding",
+        "wordOptions" : ["amazing","explicate","comfort","explain"],
+        "correctAns" : "amazing"
+    },
+    {
+        "wordId" : 2,
+        "wordName" : "profound",
+        "wordOptions" : ["shallow", "superb", "compliment","deep"],
+        "correctAns" : "deep"
+    },
+    {
+        "wordId" : 3,
+        "wordName" : "acumen",
+        "wordOptions" : ["stupidity", "ignorance", "disjoin","brilliance"],
+        "correctAns" : "brilliance"
+    },
+    {
+        "wordId" : 4,
+        "wordName" : "adhere",
+        "wordOptions" : ["annual", "comply", "disjoin","condemn"],
+        "correctAns" : "comply"
+    },
+    {
+        "wordId" : 5,
+        "wordName" : "benign",
+        "wordOptions" : ["charming", "enemy", "friendly","smart"],
+        "correctAns" : "friendly"
+    }
+]
