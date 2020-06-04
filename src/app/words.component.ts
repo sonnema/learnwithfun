@@ -51,14 +51,14 @@ export class WordsComponent implements OnInit {
       this.answerResponse = "No option has been chosen";
       break;
     case (this.answer === this.chosenAnswer):
-      this.answerResponse = "Correct Answer"
+      this.answerResponse = "Your answer is correct";
       if(this.id == this.words.length)
       {
         alert("End of Level 1");
       }
       else
       {
-      this.getWord(this.id);
+        this.getWord(this.id);
       }
       break;
     case (this.answer !== this.chosenAnswer):
