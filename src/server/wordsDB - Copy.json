@@ -1,0 +1,84 @@
+{
+  "words": [
+    {
+      "name": "necessary",
+      "meaning": "very important",
+      "synonym1": "forced",
+      "synonym2": "obligatory",
+      "antonym1": "optional",
+      "antonym2": "voluntary",
+      "updated": "6/10/2020, 9:27:38 PM",
+      "id": 5
+    },
+    {
+      "name": "accommodate",
+      "meaning": "to give some one a place to live",
+      "synonym1": "rehouse",
+      "synonym2": "settle",
+      "antonym1": "disoblige",
+      "antonym2": "disharmonize",
+      "updated": "6/9/2020, 5:42:02 PM",
+      "id": 6
+    },
+    {
+      "name": "accompany",
+      "meaning": "to go with some one",
+      "synonym1": "bring",
+      "synonym2": "come along",
+      "antonym1": "desert",
+      "antonym2": "abandon",
+      "updated": "6/9/2020, 5:42:02 PM",
+      "id": 7
+    },
+    {
+      "name": "accord",
+      "meaning": "give or grant someone (power, status, or recognition)",
+      "synonym1": "agreement",
+      "synonym2": "pact",
+      "antonym1": "differing",
+      "antonym2": " disagreeing ",
+      "updated": "6/9/2020, 5:42:02 PM",
+      "id": 8
+    },
+    {
+      "name": "achieve",
+      "meaning": "to succeed in finishing something",
+      "synonym1": "accomplish",
+      "synonym2": "succeed",
+      "antonym1": "fail ",
+      "antonym2": "lose",
+      "updated": "6/9/2020, 5:42:02 PM",
+      "id": 9
+    },
+    {
+      "name": "captivity",
+      "meaning": "locked in cage or some sort of room after being captured",
+      "synonym1": "trapped",
+      "synonym2": "locked",
+      "antonym1": "freedom",
+      "antonym2": "",
+      "updated": "6/9/2020, 5:42:02 PM",
+      "id": 10
+    },
+    {
+      "name": "hardship",
+      "meaning": "a problem of difficulty ",
+      "synonym1": "misery",
+      "synonym2": "suffering",
+      "antonym1": "comfort",
+      "antonym2": "safety",
+      "updated": "6/9/2020, 5:42:02 PM",
+      "id": 11
+    },
+    {
+      "name": "impact",
+      "meaning": "impact is the action of one object crashing into another",
+      "synonym1": "hit",
+      "synonym2": "crash",
+      "antonym1": "demagnetize",
+      "antonym2": "",
+      "updated": "6/9/2020, 5:42:02 PM",
+      "id": 12
+    }
+  ]
+}

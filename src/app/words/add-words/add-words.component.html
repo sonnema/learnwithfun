@@ -1,0 +1,141 @@
+
+<div class="card">
+    <div class="card-header">
+        <h3>{{pageTitle}}</h3>
+    </div>
+    <div class="card-body">
+      <form novalidate
+      (ngSubmit)="addWord()"
+      [formGroup]="wordForm">
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+               for="nameId">Word Name</label>
+          <div class="col-md-8">
+            <input class="form-control"
+                 id="nameId"
+                 type="text"
+                 placeholder="Word Name (required)"
+                 formControlName="name"
+                 [ngClass]="{'is-invalid': (wordForm.get('name').touched ||
+                                            wordForm.get('name').dirty) &&
+                                            !wordForm.get('name').valid }" />
+            <span class="invalid-feedback">
+              <span *ngIf="wordForm.get('name').errors?.required">
+              Please enter the word you want to add.
+              </span>
+              <span *ngIf="wordForm.get('name').errors?.minlength">
+              The word must be longer than 3 characters.
+              </span>
+            </span>
+          </div>
+        </div>
+        
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+                 for="meaningId">Word Meaning</label>
+          <div class="col-md-8">
+            <input class="form-control"
+                   id="meaningId"
+                   type="text"
+                   placeholder="Word Meaning (required)"
+                   formControlName="meaning"
+                   [ngClass]="{'is-invalid': (wordForm.get('meaning').touched ||
+                                              wordForm.get('meaning').dirty) &&
+                                              !wordForm.get('meaning').valid }" />
+            <span class="invalid-feedback">
+              <span *ngIf="wordForm.get('meaning').errors?.required">
+                Please enter your word's meaning.
+              </span>
+              <span *ngIf="wordForm.get('meaning').errors?.maxlength">
+                The word meaning must be less than 50 characters.
+              </span>
+            </span>
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+                 for="synonym1Id">Synonym 1</label>
+          <div class="col-md-8">
+            <input class="form-control"
+                   id="synonym1Id"
+                   type="text"
+                   placeholder="Synonym 1 (required)"
+                   formControlName="synonym1"
+                   [ngClass]="{'is-invalid': (wordForm.get('synonym1').touched ||
+                                              wordForm.get('synonym1').dirty) &&
+                                              !wordForm.get('synonym1').valid }" />
+            <span class="invalid-feedback">
+              <span *ngIf="wordForm.get('synonym1').errors?.required">
+                Please enter your word's synonym 1.
+              </span>
+            </span>
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+                 for="synonym2Id">Synonym 2</label>
+          <div class="col-md-8">
+            <input class="form-control"
+                   id="synonym2Id"
+                   type="text"
+                   placeholder="Synonym 2 (optional)"
+                   formControlName="synonym2"
+            />
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+                 for="antonym1Id">Antonym 1</label>
+          <div class="col-md-8">
+            <input class="form-control"
+                   id="antonym1Id"
+                   type="text"
+                   placeholder="Antonym 1 (required)"
+                   formControlName="antonym1"
+                   [ngClass]="{'is-invalid': (wordForm.get('antonym1').touched ||
+                                              wordForm.get('antonym1').dirty) &&
+                                              !wordForm.get('antonym1').valid }" />
+            <span class="invalid-feedback">
+              <span *ngIf="wordForm.get('antonym1').errors?.required">
+                Please enter your word's antonym 1.
+              </span>
+            </span>
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+                 for="antonym2Id">Antonym 2</label>
+          <div class="col-md-8">
+            <input class="form-control"
+                   id="antonym2Id"
+                   type="text"
+                   placeholder="Antonym 2 (optional)"
+                   formControlName="antonym2"
+            />
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <div class="offset-md-2 col-md-12">
+            <button class="btn btn-primary col-md-4 mr-3"
+                    type="submit"
+                    style="width:30%" 
+                    [title]="wordForm.valid ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                    [disabled]="!wordForm.valid">
+              Save the word 
+            </button>
+            <a [routerLink]="['/words']">
+              <button type="submit" style="width:40%" class="btn btn-success col-md-4 ml-1">Back to Wordlist</button>
+            </a>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="card-footer">
+
+    </div>
+</div>

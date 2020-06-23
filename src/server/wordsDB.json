@@ -1,0 +1,194 @@
+{
+  "words": [
+    {
+      "name": "necessary",
+      "meaning": "very important",
+      "synonym1": "mandatory",
+      "synonym2": "obligatory",
+      "antonym1": "optional",
+      "antonym2": "voluntary",
+      "updated": "6/21/2020, 2:03:04 PM",
+      "id": 5
+    },
+    {
+      "name": "accommodate",
+      "meaning": "to give some one a place to live",
+      "synonym1": "rehouse",
+      "synonym2": "settle",
+      "antonym1": "disoblige",
+      "antonym2": "disharmonize",
+      "updated": "6/9/2020, 5:42:02 PM",
+      "id": 6
+    },
+    {
+      "name": "accompany",
+      "meaning": "to go with some one",
+      "synonym1": "escort",
+      "synonym2": "come along",
+      "antonym1": "desert",
+      "antonym2": "abandon",
+      "updated": "6/21/2020, 2:03:04 PM",
+      "id": 7
+    },
+    {
+      "name": "accord",
+      "meaning": "give or grant someone (power, status, or recognition)",
+      "synonym1": "agreement",
+      "synonym2": "pact",
+      "antonym1": "differing",
+      "antonym2": " disagreeing ",
+      "updated": "6/9/2020, 5:42:02 PM",
+      "id": 8
+    },
+    {
+      "name": "achieve",
+      "meaning": "to succeed in finishing something",
+      "synonym1": "accomplish",
+      "synonym2": "succeed",
+      "antonym1": "fail ",
+      "antonym2": "lose",
+      "updated": "6/9/2020, 5:42:02 PM",
+      "id": 9
+    },
+    {
+      "name": "captivity",
+      "meaning": "locked in cage or some sort of room after being captured",
+      "synonym1": "trapped",
+      "synonym2": "locked",
+      "antonym1": "freedom",
+      "antonym2": "",
+      "updated": "6/9/2020, 5:42:02 PM",
+      "id": 10
+    },
+    {
+      "name": "hardship",
+      "meaning": "a problem of difficulty ",
+      "synonym1": "misery",
+      "synonym2": "suffering",
+      "antonym1": "comfort",
+      "antonym2": "safety",
+      "updated": "6/9/2020, 5:42:02 PM",
+      "id": 11
+    },
+    {
+      "name": "impact",
+      "meaning": "impact is the action of one object crashing into another",
+      "synonym1": "hit",
+      "synonym2": "crash",
+      "antonym1": "demagnetize",
+      "antonym2": "away",
+      "updated": "6/14/2020, 4:05:25 PM",
+      "id": 12
+    },
+    {
+      "name": "arrogant",
+      "meaning": "when a person thinks and acts like they are better than everyone else",
+      "synonym1": "bossy",
+      "synonym2": "pompous",
+      "antonym1": "modest",
+      "antonym2": "humble",
+      "updated": "6/14/2020, 4:05:25 PM",
+      "id": 13
+    },
+    {
+      "name": "recognise",
+      "meaning": "are able to point out what it is because you remember coming across it before",
+      "synonym1": "remember",
+      "synonym2": "memorial",
+      "antonym1": "forget",
+      "antonym2": "misrecollect",
+      "updated": "6/14/2020, 4:05:25 PM",
+      "id": 14
+    },
+    {
+      "name": "rapid",
+      "meaning": "very fast",
+      "synonym1": "quick",
+      "synonym2": "swift",
+      "antonym1": "slow",
+      "antonym2": "long",
+      "updated": "6/14/2020, 4:05:25 PM",
+      "id": 15
+    },
+    {
+      "name": "supreme",
+      "meaning": "the one and only",
+      "synonym1": "greatest",
+      "synonym2": "best",
+      "antonym1": "worst",
+      "antonym2": "",
+      "updated": "6/21/2020, 1:26:45 PM",
+      "id": 16
+    },
+    {
+      "name": "venture",
+      "meaning": "a dangerous journey",
+      "synonym1": "wander",
+      "synonym2": "",
+      "antonym1": "safety",
+      "antonym2": "",
+      "updated": "6/21/2020, 1:26:45 PM",
+      "id": 17
+    },
+    {
+      "name": "ease",
+      "meaning": "very easily done",
+      "synonym1": "repose",
+      "synonym2": "contentment",
+      "antonym1": "stretched",
+      "antonym2": "strain",
+      "updated": "6/21/2020, 2:03:04 PM",
+      "id": 18
+    },
+    {
+      "name": "address",
+      "meaning": "if you address some one you are saying hello or dear",
+      "synonym1": "greet",
+      "synonym2": "welcome",
+      "antonym1": "ignore",
+      "antonym2": "elude",
+      "updated": "6/21/2020, 2:03:04 PM",
+      "id": 19
+    },
+    {
+      "name": "alert",
+      "meaning": "aware of their surroundings",
+      "synonym1": "aware",
+      "synonym2": "known",
+      "antonym1": "carelessness",
+      "antonym2": "",
+      "updated": "6/21/2020, 2:03:04 PM",
+      "id": 20
+    },
+    {
+      "name": "capable",
+      "meaning": "able of doing",
+      "synonym1": "ability",
+      "synonym2": "possible",
+      "antonym1": "imposible",
+      "antonym2": "clumsy",
+      "updated": "6/21/2020, 2:03:04 PM",
+      "id": 21
+    },
+    {
+      "name": "ancestor",
+      "meaning": "people in your family who are older than your grandparents",
+      "synonym1": "antecedent",
+      "synonym2": "predecessor",
+      "antonym1": "successor",
+      "antonym2": "descendant",
+      "updated": "6/21/2020, 2:03:04 PM",
+      "id": 22
+    },
+    {
+      "name": "annual",
+      "meaning": "it happens once an year",
+      "synonym1": "yearly",
+      "synonym2": "",
+      "antonym1": "two-year",
+      "antonym2": "",
+      "updated": "6/21/2020, 2:03:04 PM",
+      "id": 23
+    }
+  ]
+}

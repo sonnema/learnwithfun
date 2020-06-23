@@ -1,0 +1,77 @@
+
+<div id="startGame" *ngIf="isModalShown" [config]="{ show: true, backdrop: 'static',  keyboard: false }" (onHidden)="onHidden()" 
+bsModal #autoShownModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="dialog-auto-name" >
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 id="dialog-auto-name" class="modal-title">{{modalTitle}}</h4>
+        <button type="button" class="close pull-right" aria-label="Close" (click)="hideModal()">
+          <span aria-hidden="true"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>{{modalBodyMsg1}}</p>
+        <p>{{modalBodyMsg2}}</p>
+        <p>{{modalBodyMsg3}}
+          <!-- <i *ngIf="(modalTitle == 'Game Over')" class="fa fa-times-circle" aria-hidden="true"></i> -->
+        </p>
+        <button type="button" class="btn btn-primary" aria-label="Close" (click)="startGame()">
+          <span aria-hidden="true">{{modalBodyBtn}}</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div> 
+<!-- [ngClass]="isDivEnabled ? 'enable' : 'disable'"  -->
+<div id="gameCard" class="card findSynonym" [ngClass]="isDivEnabled ? 'enable' : 'disable'">
+  <div class="card-header">
+    <div class="row">  
+      <div class="col-md-8" >
+        <h4>{{pageTitle}}</h4>
+      </div>
+      <div class="col-md-2 float-right ">
+        <div class="table-responsive rounded"  >
+          <table class="table scoreNTimer">
+            <th>Score</th>
+            <tr *ngIf="(totalWords != 0)"><td>{{score}}/{{totalWords}}</td></tr>
+            <tr *ngIf="(totalWords == 0)"><td>{{score}}</td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-2 float-right">
+        <div class="table-responsive rounded">
+          <table class="table scoreNTimer">
+            <th>Timer</th>
+            <tr><td>{{timer}}</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-body" >
+    <div class="table-responsive rounded " *ngIf = "words && words.length" >
+      <table class="table table-hover table-bordered col-md-12">
+        <thead id="wordName">
+          <th>{{name}}</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let option of options, let i = index" (click)="setClickedRow(option)" 
+            [class.active]="i == selectedRow">
+            <td>
+              <button type="button" class="option" data-toggle="button" aria-pressed="false" autocomplete="off">
+                  {{option}}
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div> 
+  </div>
+  <div class="card-footer text-center" *ngIf="isStartBtnShown">
+      <button type="button" class="btn btn-primary" (click)="startGame()">Start Game</button>
+  </div>
+</div>
+
+<app-word-details (nextWord)="returnFromChild($event)"></app-word-details> 
+
+

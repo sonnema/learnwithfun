@@ -1,0 +1,60 @@
+
+ <div class="card">
+    <div class="card-header">
+      <h3>{{pageTitle}}</h3>
+    </div>
+  <div class="card-body">
+      <div class="row">
+        <div class="col-md-1">Filter by:</div>
+        <div class="col-md-5">
+          <input type="text" class="large" [(ngModel)]='listFilter'/>
+        </div>
+        <div class="col-md-6">
+          <a [routerLink]="['/addwords']">
+          <button type="button" class="option float-right btn btn-primary" data-toggle="button" 
+          aria-pressed="false" autocomplete="off">
+          Add a new word</button>
+          </a>
+        </div>
+      </div>
+      
+      <table class="table table-bordered table-striped mt-5">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Word</th>
+            <th>Meaning</th>
+            <th>Synonym 1</th>
+            <th>Synonym 2</th>
+            <th>Antonym 1</th>
+            <th>Antonym 2</th>
+            <th>Last Update</th>
+            <th></th>
+          </tr>
+        </thead>
+          <tbody>
+            <tr *ngFor="let item of filteredWords; let i = index;">
+           <!-- <tr *ngFor="let item of words; let i = index;"> -->
+                <td width="20">{{i+1}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.meaning}}</td>
+                <td>{{item.synonym1}}</td>
+                <td>{{item.synonym2}}</td>
+                <td>{{item.antonym1}}</td>
+                <td>{{item.antonym2}}</td>
+                <td>{{item.updated}}</td>
+                <td width="200">                
+                  <button type="button" class="btn btn-success mr-1" (click)="deleteWord(item.id, i)">Delete</button>
+                  <a [routerLink]="['/updateWord', item.id]">
+                      <button type="button" class="btn btn-success ml-1" (click)="updateWord(item.id)">Update</button>
+                  </a>
+                </td>
+            </tr>
+        </tbody>  
+      </table> 
+    </div>
+    <div class="card-footer">
+        
+    </div>
+</div> 
+

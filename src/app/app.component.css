@@ -1,0 +1,27 @@
+
+
+#dropdownMenuButton{
+    color:#007bff;
+}
+.dropdown-menu{
+    color:#007bff;
+    background-color: transparent;
+    padding:0;
+    margin:0;
+    min-width:auto;
+    border:none;
+}
+.dropdown-divider{
+    margin:0;
+}
+.nav-pills .show> .nav-link{
+    color:#fff;
+    background-color: #007bff;
+}
+.nav-pills .nav-link{
+    border-radius:none !important;
+}
+.navbar-light .navbar-brand {
+    color: #212529;
+    font-size: x-large;
+}

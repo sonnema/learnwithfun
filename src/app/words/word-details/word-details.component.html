@@ -1,0 +1,92 @@
+<div class="card findSynonym stackTop" *ngIf='showChildDiv'>
+    <div class="card-header">
+      <!-- <div style="width: 50px" >
+        <div style="width: 5px" (click)='onCloseClick()'> 
+          <span class="fa fa-window-close"></span>
+        </div>
+      </div> -->  
+      <h4>{{pageTitle}}</h4>
+        <div>
+          <h6>{{response}}</h6>
+        </div>
+    </div>
+    <div class="card-body">
+      <form novalidate [formGroup]="wordForm">
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+               for="nameId">Word Name</label>
+          <div class="col-md-8">
+            <input readonly class="form-control"
+                 id="nameId"
+                 type="text"
+                 placeholder="Word Name (required)"
+                 formControlName="name"/>
+          </div>
+        </div>
+        
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+                 for="meaningId">Word Meaning</label>
+          <div class="col-md-8">
+            <input readonly class="form-control"
+                   id="meaningId"
+                   type="text"
+                   placeholder="Word Meaning (required)"
+                   formControlName="meaning" />
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+                 for="synonym1Id">Synonym 1</label>
+          <div class="col-md-8">
+            <input readonly class="form-control"
+                   id="synonym1Id"
+                   type="text"
+                   placeholder="Synonym 1 (required)"
+                   formControlName="synonym1" />
+            </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+                 for="synonym2Id">Synonym 2</label>
+          <div class="col-md-8">
+            <input readonly class="form-control"
+                   id="synonym2Id"
+                   type="text"
+                   placeholder="Synonym 2 (optional)"
+                   formControlName="synonym2" />
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+                 for="antonym1Id">Antonym 1</label>
+          <div class="col-md-8">
+            <input readonly class="form-control"
+                   id="antonym1Id"
+                   type="text"
+                   placeholder="Antonym 1 (required)"
+                   formControlName="antonym1" />
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+                 for="antonym2Id">Antonym 2</label>
+          <div class="col-md-8">
+            <input readonly class="form-control"
+                   id="antonym2Id"
+                   type="text"
+                   placeholder="Antonym 2 (optional)"
+                   formControlName="antonym2"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="card-footer">
+      <button class="btn btn-primary" (click)="nextWord.emit($event)">Show Next Word</button>
+    </div>
+</div>

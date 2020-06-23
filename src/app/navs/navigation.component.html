@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand navbar-light bg-light">
+  <div class="container">
+    <div class="navbar-header">
+      <a class='navbar-brand' routerLink="home">{{pageTitle}}</a>
+    </div>
+    <ul class='nav nav-pills'>
+      <li><a class='nav-link' [routerLink]="['/home']">Home</a></li>
+      <li><a class='nav-link' [routerLink]="['/words']">Word List</a></li>
+      <li><a class='nav-link' [routerLink]="['/wordgames']">Word Games</a></li>
+    </ul>
+  </div>
+</nav>

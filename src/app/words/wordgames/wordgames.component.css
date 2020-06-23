@@ -1,0 +1,51 @@
+/* div.card-header {
+    font-size: large;
+}
+   
+div.card {
+     margin-left:auto;
+     margin-right: auto;
+     width: 100% !important;
+     height:auto ;
+     top: 100px;
+}
+
+.findSynonym{
+    position: absolute;
+    left: auto;
+    right:auto;
+    opacity: 1;
+}
+.stack-top{
+    z-index: 9;
+    margin: 0; 
+} 
+*/
+/*
+.option{
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 0!important;
+    font-family: arial, sans-serif;
+    color: #069;
+    outline:none;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+
+.option:hover {
+        color: black;
+}
+
+thead{
+    background:rgb(133, 126, 126); 
+    font-size: large;
+}
+.table tr.active td {
+    background-color:#123456 !important;
+    color: white;
+} */

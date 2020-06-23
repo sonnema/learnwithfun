@@ -1,0 +1,63 @@
+/* 
+div.findSynonym{
+    pointer-events: auto;    
+}  */
+.fa-times-circle{
+    color:red;
+    font-size:xx-large;
+}
+.enable{
+    pointer-events: auto;    
+}
+.disable{
+    pointer-events: none;    
+}
+.findSynonym{
+    position: absolute;
+    left: auto;
+    right:auto;
+    opacity: 1;
+    color:#212529;
+}
+.modal {
+    display:none;
+}
+#startGame{
+    text-align:center;
+}
+.scoreNTimer{
+    width:100%;
+    text-align: center;
+    background-color: #007bff40;
+    border:1px solid #212529;
+}
+.scoreNTimer>th,.scoreNTimer>tr,.scoreNTimer>tr>td{
+    padding:0;
+    color:#212529;
+    border:1px solid #212529;
+}
+#wordName{
+    background-color: #007bff40;
+    border:1px solid #000;
+    font-size: larger;
+}
+.option{
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 0!important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: #069;
+    /* display:block; */
+    outline:none;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+  
+.option:hover {
+        color: black;
+}
